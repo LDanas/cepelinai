@@ -32,14 +32,14 @@ body {
     transform: translateY(-50%);
     background-image: url('Cepekai.jpg');
     background-size: cover;
-    background-position: center; /* Center the image within the div */
+    background-position: center;
     border-radius: 20px;
 }
 
 .button-container {
     position: relative;
-    top: 410px; /* Adjust if needed based on actual placement */
-    left: 155px; /* Adjust if needed based on actual placement */
+    top: 410px; 
+    left: 155px;
 }
 
 .Started {
@@ -70,7 +70,6 @@ body {
     top:1px;
 }
 
-/* Tooltip styles */
 .Started::after {
     content: "Click to start !";
     position: absolute;
@@ -88,7 +87,7 @@ body {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
-    z-index: 10; /* Ensure tooltip is above other content */
+    z-index: 10;
 }
 
 .Started:hover::after {
