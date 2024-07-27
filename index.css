@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('kitchen.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    transition: background-position 0.1s ease;
 }
-
 
 .rectangle1 {
     width: 500px;
