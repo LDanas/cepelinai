@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a8aa16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.rectangle1 {
+    width: 500px;
+    height: 900px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 7px 10px 5px -4px rgba(191, 191, 191, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Cepelinai {
+    width: 475px;
+    height: 275px;
+    position: relative;
+    top: 130px;
+    left: 13px;
+    transform: translateY(-50%);
+    background-image: url('Cepekai.jpg');
+    background-size: cover;
+    background-position: center; /* Center the image within the div */
+    border-radius: 20px;
+}
+
+.button-container {
+    position: relative;
+    top: 410px; /* Adjust if needed based on actual placement */
+    left: 155px; /* Adjust if needed based on actual placement */
+}
+
+.Started {
+    box-shadow: 4px 4px 5px -2px #3dc21b;
+    background-color:#44c767;
+    border-radius:15px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding:13px 13px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    position: relative; /* Required for positioning the tooltip */
+}
+
+.Started:hover {
+    background-color:#5cbf2a;
+}
+
+.Started:active {
+    position:relative;
+    top:1px;
+}
+
+/* Tooltip styles */
+.Started::after {
+    content: "Click to start !";
+    position: absolute;
+    top: 6px; /* Position the tooltip above the button */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#44c767;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 28px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 10; /* Ensure tooltip is above other content */
+}
+
+.Started:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.welcometext {
+    position: relative;
+    font-family: "Caveat", cursive;
+    color: #333333;
+    text-align: center;
+    margin: 20px;
+}
+
+.welcometext h1 {
+    position: absolute; 
+    top: 270px;
+    left: 134px;
+    transform: translateX(-50%);
+    font-size: 30px;
+    margin: 0;
+}
+
+.welcometext p {
+    position: absolute; 
+    top: 320px; 
+    left: 38%; 
+    text-align: left;
+    transform: translateX(-50%); 
+    font-size: 22px;
+    margin: 0;
+    width: 80%;
+}
+
+.welcometext p2 {
+    position: absolute; 
+    top: 780px; 
+    left: 38%; 
+    text-align: left;
+    transform: translateX(-50%); 
+    font-size: 22px;
+    margin: 0;
+    width: 80%;
+}
