@@ -55,11 +55,11 @@ body {
     padding:13px 13px;
     text-decoration:none;
     text-shadow:0px 1px 0px #2f6627;
-    position: relative; /* Required for positioning the tooltip */
+    position: relative;
 }
 
 .Started:hover {
-    background-color:#5cbf2a;
+    background-color:#44c767;
 }
 
 .Started:active {
@@ -71,14 +71,16 @@ body {
 .Started::after {
     content: "Click to start !";
     position: absolute;
-    top: 6px; /* Position the tooltip above the button */
+    width: 150px;
+    top: -2px;
     left: 50%;
     transform: translateX(-50%);
     background-color:#44c767;
     color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding:13px 13px;
     font-size: 28px;
+    border-radius:15px;
+    border:1px solid #18ab29;
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
@@ -111,10 +113,11 @@ body {
 .welcometext p {
     position: absolute; 
     top: 320px; 
-    left: 38%; 
+    left: 39%; 
     text-align: left;
     transform: translateX(-50%); 
-    font-size: 22px;
+    font-size: 16px;
+    font-family: "Laila", serif;
     margin: 0;
     width: 80%;
 }
@@ -122,10 +125,11 @@ body {
 .welcometext p2 {
     position: absolute; 
     top: 780px; 
-    left: 38%; 
+    font-family: "Laila", serif;
+    left: 39%; 
     text-align: left;
     transform: translateX(-50%); 
-    font-size: 22px;
+    font-size: 16px;
     margin: 0;
     width: 80%;
 }
