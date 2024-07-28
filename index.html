@@ -1,0 +1,44 @@
+<!-- 
+ 
+Credits go to my friend Titas, who worked on the design a bit, even though he has no knowledge of it
+Bro just helped me get the design to look better with his opinion. 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Italianno&family=Oswald:wght@200..700&family=Sevillana&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Italianno&family=Laila:wght@300;400;500;600;700&family=Oswald:wght@200..700&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepelinai !</title>
+</head>
+<body>
+    <div class="rectangle1">
+        <div class="welcometext">
+            <h1>Lithuanian Dish - Cepelinai</h1>
+            <p>So, from all the foods you've decided to choose, you chose ,,Cepelinai". Good choice! Wouldn't have chosen otherwise myself, as cepelinai truly represents the heart of Lithuanian cuisine. Originating in Lithuania, cepelinai have been enjoyed for generations, tracing back to the early 19th century when potato cultivation became widespread. These dumplings, named after the zeppelin airships due to their shape, combine grated potatoes and savory fillings, showcasing the hearty and comforting nature of traditional Lithuanian food. They embody a rich culinary tradition that continues to delight locals and visitors alike.</p>
+            <p2>What do you say we move on to the recipe ?</p2>
+        </div>
+        <div class="Cepelinai"></div>
+    </div>
+    <div class="button-container">
+        <a href="recipe.html" class="Started">Let's get started!</a>
+    </div>
+
+    <!-- The script for the mouse moving into the Y coordinates, making the picture move along with it. -->
+
+    <script> 
+        document.addEventListener('mousemove', function(e) {
+            var y = e.clientY;
+            var windowHeight = window.innerHeight;
+            var yPercent = (y / windowHeight) * 100;
+            document.body.style.backgroundPosition = 'center ' + yPercent + '%';
+        });
+    </script>
+</body>
+</html>
