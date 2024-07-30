@@ -16,37 +16,6 @@ body {
     scroll-behavior: smooth;
 }
 
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  }
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
-
 * {
     scrollbar-width: auto;
     scrollbar-color: #4f3c58 #6f577a;
@@ -71,6 +40,10 @@ body {
     min-height: 100vh;
     position: relative;
     transform-style: preserve-3d;
+}
+
+.text {
+    margin-top: 100px;
 }
 
 .section1::before {
@@ -166,7 +139,7 @@ body {
 }
 
 .ingredients1.expanded {
-    transform: scale(1.5) translate(-55px, 0);
+    transform: scale(1.5) translate(0px, 0);
 }
 
 .ingredients2.expanded {
@@ -174,7 +147,7 @@ body {
 }
 
 .ingredients3.expanded {
-    transform: scale(1.5) translate(55px, 0);
+    transform: scale(1.5) translate(0px, 0);
 }
 
 .ingredients-container {
@@ -184,7 +157,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 90px;
     padding: 20px;
 }
 
@@ -220,8 +193,213 @@ body {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-
 @keyframes fadeOut {
     from { opacity: 1; }
     to { opacity: 0; }
+}
+
+@media (max-width: 414px) and (max-height: 896px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section1, .section2 {
+        min-height: 100%;
+    }
+
+    .section2 .text {
+        margin-top: 2px;
+        font-size: 17vw; /* Smaller font for section 2 heading */
+    }
+
+    .ingredients-container {
+        top: 250px; /* Adjust positioning */
+        flex-direction: column; /* Stack ingredients vertically */
+        gap: 90px; /* Reduce gap between ingredients */
+    }
+
+    .ingredients {
+        width: 150px; /* Adjust width */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .ingredients.expanded {
+        width: 240px; /* Adjust expanded width */
+        height: 240px; /* Adjust expanded height */
+    }
+
+    .meatfilling, .dumplings, .gravy {
+        font-size: 25px; /* Adjust font size */
+        line-height: 30px; /* Adjust line height */
+    }
+
+    .ingredients .extra-content {
+        font-size: 12px; /* Adjust font size for extra content */
+    }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .section2 .text {
+        margin-top: 140px;
+        font-size: 12.5vw;
+    }
+
+    .ingredients-container {
+        top: 500px;
+        flex-direction: row; /* Stack ingredients vertically */
+        gap: 90px;
+    }
+
+    .ingredients {
+        width: 180px;
+        padding: 15px;
+    }
+
+    .ingredients.expanded {
+        width: 230px;
+        height: 280px;
+    }
+
+    .meatfilling, .dumplings, .gravy {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .ingredients .extra-content {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1600px) {
+
+    .section2 .text {
+        margin-top: 140px;
+        font-size: 9.5vw;
+    }
+
+    .ingredients-container {
+        top: 550px;
+        flex-direction: row; /* Stack ingredients vertically */
+        gap: 95px;
+    }
+
+    .ingredients {
+        width: 200px;
+        padding: 20px;
+    }
+
+    .ingredients.expanded {
+        width: 290px;
+        height: 290px;
+    }
+
+    .meatfilling, .dumplings, .gravy {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .ingredients .extra-content {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1919px) {
+    .text {
+        font-size: 6vw;
+    }
+    
+
+    .section2 .text {
+        margin-top: 220px;
+        font-size: 9.5vw;
+    }
+
+    .ingredients-container {
+        top: 500px;
+        flex-direction: row; /* Stack ingredients vertically */
+        gap: 190px;
+    }
+
+    .ingredients {
+        width: 220px;
+        padding: 25px;
+    }
+
+    .ingredients.expanded {
+        width: 320px;
+        height: 320px;
+    }
+
+    .meatfilling, .dumplings, .gravy {
+        font-size: 35px;
+        line-height: 40px;
+        overflow: hidden; 
+    }
+
+    .ingredients .extra-content {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1920px) and (min-height: 1080px) {
+
+    .section2 .text {
+        margin-top: 150px;
+        font-size: 8vw;
+    }
+
+    .ingredients-container {
+        top: 500px;
+        flex-direction: row;
+        gap: 190px;
+    }
+
+    .ingredients {
+        width: 240px;
+        padding: 30px;
+    }
+
+    .ingredients.expanded {
+        width: 340px;
+        height: 340px;
+    }
+
+    .meatfilling, .dumplings, .gravy {
+        font-size: 38px;
+        line-height: 43px;
+    }
+
+    .ingredients .extra-content {
+        font-size: 18px;
+    }
+}
+@media (min-height: 900px) and (max-height: 1079px) {
+
+    .section2 .text {
+        margin-top: 110px;
+        font-size: 8vw;
+    }
+
+    .ingredients-container {
+        top: 450px;
+        flex-direction: row;
+        gap: 190px;
+    }
+
+    .ingredients {
+        width: 240px;
+        padding: 30px;
+    }
+
+    .ingredients.expanded {
+        width: 300px;
+        height: 220px;
+    }
+
+    .meatfilling, .dumplings, .gravy {
+        font-size: 38px;
+        line-height: 43px;
+    }
+
+    .ingredients .extra-content {
+        font-size: 12px;
+    }
 }
