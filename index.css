@@ -135,3 +135,381 @@ body {
     margin: 0;
     width: 80%;
 }
+@media only screen and (max-width: 414px) and (max-height: 896px) {
+    .rectangle1 {
+        width: 88%;
+        height: 80%;
+        top: 5%;
+        left: 5%;
+        transform: translate(0, 0);
+    }
+
+    .Cepelinai {
+        width: 95%;
+        height: 190px;
+        top: 0px;
+        left: 10px;
+        transform: translateY(0);
+    }
+
+    .button-container {
+        top: 270px;
+        left: 170px;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+
+    .Started {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        width: 120px;
+        font-size: 24px;
+        padding: 10px 10px;
+    }
+
+    .welcometext {
+        margin: 10px;
+    }
+
+    .welcometext h1 {
+        top: 200px;
+        left: 50%;
+        width: 300px;
+        transform: translateX(-50%);
+        font-size: 24px;
+    }
+
+    .welcometext p {
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .welcometext p2 {
+        top: 600px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1024px) and (max-height: 768px) {
+    .rectangle1 {
+        width: 50%;
+        height: 80%;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .Cepelinai {
+        width: 95%;
+        height: 190px;
+        top: 0px;
+        left: 10px;
+        transform: translateY(0);
+    }
+
+    .button-container {
+        top: 230px;
+        left: 250px;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+
+    .Started {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        width: 120px;
+        font-size: 24px;
+        padding: 10px 10px;
+    }
+
+    .welcometext {
+        margin: 10px;
+    }
+
+    .welcometext h1 {
+        top: 200px;
+        left: 50%;
+        width: 300px;
+        transform: translateX(-50%);
+        font-size: 24px;
+    }
+
+    .welcometext p {
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .welcometext p2 {
+        top: 550px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    .rectangle1 {
+        width: 50%;
+        height: 80%;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .Cepelinai {
+        width: 97%;
+        height: 190px;
+        top: 0px;
+        left: 10px;
+        transform: translateY(0);
+    }
+
+    .button-container {
+        top: 225px;
+        left: 285px;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+
+    .Started {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        width: 120px;
+        font-size: 24px;
+        padding: 10px 10px;
+    }
+
+    .welcometext {
+        margin: 10px;
+    }
+
+    .welcometext h1 {
+        top: 200px;
+        left: 50%;
+        width: 300px;
+        transform: translateX(-50%);
+        font-size: 24px;
+    }
+
+    .welcometext p {
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .welcometext p2 {
+        top: 575px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1680px) and (max-height: 1050px) {
+    .rectangle1 {
+        width: 40%;
+        height: 90%;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .Cepelinai {
+        width: 97%;
+        height: 200px;
+        top: 0px;
+        left: 10px;
+        transform: translateY(0);
+    }
+
+    .button-container {
+        top: 405px;
+        left: 315px;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+
+    .Started {
+        font-size: 40px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        width: 120px;
+        font-size: 24px;
+        padding: 10px 10px;
+    }
+
+    .welcometext {
+        margin: 10px;
+    }
+
+    .welcometext h1 {
+        top: 200px;
+        left: 50%;
+        width: 300px;
+        transform: translateX(-50%);
+        font-size: 24px;
+    }
+
+    .welcometext p {
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .welcometext p2 {
+        top: 775px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 24px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1920px) and (max-height: 1080px) {
+    .rectangle1 {
+        width: 500px;
+        height: 900px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 7px 10px 5px -4px rgba(191, 191, 191, 1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .Cepelinai {
+        width: 475px;
+        height: 275px;
+        position: relative;
+        top: 130px;
+        left: 13px;
+        transform: translateY(-50%);
+        background-image: url('Cepekai.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+    
+    .button-container {
+        position: relative;
+        top: 410px; 
+        left: 155px;
+    }
+    
+    .Started {
+        box-shadow: 4px 4px 5px -2px #3dc21b;
+        background-color:#44c767;
+        border-radius:15px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: "Caveat", cursive;
+        font-size: 25px;
+        font-weight: bold;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding:13px 13px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+        position: relative;
+    }
+    
+    .Started:hover {
+        background-color:#44c767;
+    }
+    
+    .Started:active {
+        position:relative;
+        top:1px;
+    }
+    
+    .Started::after {
+        content: "Click to start !";
+        position: absolute;
+        width: 150px;
+        top: -2px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color:#44c767;
+        color: #fff;
+        padding:13px 13px;
+        font-size: 28px;
+        border-radius:15px;
+        border:1px solid #18ab29;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease;
+        z-index: 10;
+    }
+    
+    .Started:hover::after {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .welcometext {
+        position: relative;
+        font-family: "Caveat", cursive;
+        color: #333333;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .welcometext h1 {
+        position: absolute; 
+        top: 270px;
+        left: 134px;
+        transform: translateX(-50%);
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .welcometext p {
+        position: absolute; 
+        top: 320px; 
+        left: 39%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 16px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+    }
+    
+    .welcometext p2 {
+        position: absolute; 
+        top: 780px; 
+        font-family: "Laila", serif;
+        left: 39%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 16px;
+        margin: 0;
+        width: 80%;
+    }
+}
