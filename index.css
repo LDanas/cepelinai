@@ -135,381 +135,635 @@ body {
     margin: 0;
     width: 80%;
 }
-@media only screen and (max-width: 414px) and (max-height: 896px) {
+
+@media (width: 375px) and (height: 667px) {
     .rectangle1 {
-        width: 88%;
-        height: 80%;
+        width: 80%;
+        height: 105%;
         top: 5%;
         left: 5%;
         transform: translate(0, 0);
+        padding: 10px;
     }
 
     .Cepelinai {
-        width: 95%;
-        height: 190px;
-        top: 0px;
-        left: 10px;
-        transform: translateY(0);
-    }
-
-    .button-container {
-        top: 270px;
-        left: 170px;
-        transform: translateX(-50%);
-        margin-top: 20px;
-    }
-
-    .Started {
-        font-size: 20px;
-        padding: 10px 10px;
-    }
-
-    .Started::after {
-        width: 120px;
-        font-size: 24px;
-        padding: 10px 10px;
-    }
-
-    .welcometext {
-        margin: 10px;
-    }
-
-    .welcometext h1 {
-        top: 200px;
-        left: 50%;
-        width: 300px;
-        transform: translateX(-50%);
-        font-size: 24px;
-    }
-
-    .welcometext p {
-        top: 250px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 14px;
-        width: 90%;
-    }
-
-    .welcometext p2 {
-        top: 600px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 14px;
-        width: 90%;
-    }
-}
-@media only screen and (max-width: 1024px) and (max-height: 768px) {
-    .rectangle1 {
-        width: 50%;
-        height: 80%;
-        top: 5%;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-
-    .Cepelinai {
-        width: 95%;
-        height: 190px;
-        top: 0px;
-        left: 10px;
-        transform: translateY(0);
-    }
-
-    .button-container {
-        top: 230px;
-        left: 250px;
-        transform: translateX(-50%);
-        margin-top: 20px;
-    }
-
-    .Started {
-        font-size: 20px;
-        padding: 10px 10px;
-    }
-
-    .Started::after {
-        width: 120px;
-        font-size: 24px;
-        padding: 10px 10px;
-    }
-
-    .welcometext {
-        margin: 10px;
-    }
-
-    .welcometext h1 {
-        top: 200px;
-        left: 50%;
-        width: 300px;
-        transform: translateX(-50%);
-        font-size: 24px;
-    }
-
-    .welcometext p {
-        top: 250px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 14px;
-        width: 90%;
-    }
-
-    .welcometext p2 {
-        top: 550px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 14px;
-        width: 90%;
-    }
-}
-@media only screen and (max-width: 1280px) and (max-height: 800px) {
-    .rectangle1 {
-        width: 50%;
-        height: 80%;
-        top: 5%;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-
-    .Cepelinai {
-        width: 97%;
-        height: 190px;
-        top: 0px;
-        left: 10px;
-        transform: translateY(0);
-    }
-
-    .button-container {
-        top: 225px;
-        left: 285px;
-        transform: translateX(-50%);
-        margin-top: 20px;
-    }
-
-    .Started {
-        font-size: 20px;
-        padding: 10px 10px;
-    }
-
-    .Started::after {
-        width: 120px;
-        font-size: 24px;
-        padding: 10px 10px;
-    }
-
-    .welcometext {
-        margin: 10px;
-    }
-
-    .welcometext h1 {
-        top: 200px;
-        left: 50%;
-        width: 300px;
-        transform: translateX(-50%);
-        font-size: 24px;
-    }
-
-    .welcometext p {
-        top: 250px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 14px;
-        width: 90%;
-    }
-
-    .welcometext p2 {
-        top: 575px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 16px;
-        width: 90%;
-    }
-}
-@media only screen and (max-width: 1680px) and (max-height: 1050px) {
-    .rectangle1 {
-        width: 40%;
-        height: 90%;
-        top: 5%;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-
-    .Cepelinai {
-        width: 97%;
-        height: 200px;
-        top: 0px;
-        left: 10px;
-        transform: translateY(0);
-    }
-
-    .button-container {
-        top: 405px;
-        left: 315px;
-        transform: translateX(-50%);
-        margin-top: 20px;
-    }
-
-    .Started {
-        font-size: 40px;
-        padding: 10px 10px;
-    }
-
-    .Started::after {
-        width: 120px;
-        font-size: 24px;
-        padding: 10px 10px;
-    }
-
-    .welcometext {
-        margin: 10px;
-    }
-
-    .welcometext h1 {
-        top: 200px;
-        left: 50%;
-        width: 300px;
-        transform: translateX(-50%);
-        font-size: 24px;
-    }
-
-    .welcometext p {
-        top: 250px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 22px;
-        width: 90%;
-    }
-
-    .welcometext p2 {
-        top: 775px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 24px;
-        width: 90%;
-    }
-}
-@media only screen and (max-width: 1920px) and (max-height: 1080px) {
-    .rectangle1 {
-        width: 500px;
-        height: 900px;
-        background-color: white;
-        border-radius: 20px;
-        box-shadow: 7px 10px 5px -4px rgba(191, 191, 191, 1);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .Cepelinai {
-        width: 475px;
-        height: 275px;
+        width: 295px;
+        height: 175px;
         position: relative;
-        top: 130px;
-        left: 13px;
+        top: 35px;
+        left: 3px;
         transform: translateY(-50%);
         background-image: url('Cepekai.jpg');
         background-size: cover;
         background-position: center;
         border-radius: 20px;
     }
-    
+
     .button-container {
         position: relative;
-        top: 410px; 
-        left: 155px;
-    }
-    
-    .Started {
-        box-shadow: 4px 4px 5px -2px #3dc21b;
-        background-color:#44c767;
-        border-radius:15px;
-        border:1px solid #18ab29;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
-        font-family: "Caveat", cursive;
-        font-size: 25px;
-        font-weight: bold;
-        font-optical-sizing: auto;
-        font-style: normal;
-        padding:13px 13px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #2f6627;
-        position: relative;
-    }
-    
-    .Started:hover {
-        background-color:#44c767;
-    }
-    
-    .Started:active {
-        position:relative;
-        top:1px;
-    }
-    
-    .Started::after {
-        content: "Click to start !";
-        position: absolute;
-        width: 150px;
-        top: -2px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color:#44c767;
-        color: #fff;
-        padding:13px 13px;
-        font-size: 28px;
-        border-radius:15px;
-        border:1px solid #18ab29;
-        white-space: nowrap;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s ease;
-        z-index: 10;
-    }
-    
-    .Started:hover::after {
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .welcometext {
-        position: relative;
-        font-family: "Caveat", cursive;
-        color: #333333;
+        top: 390px;
+        left: 75px;
+        width: 100%;
         text-align: center;
-        margin: 20px;
     }
-    
-    .welcometext h1 {
-        position: absolute; 
-        top: 270px;
-        left: 134px;
-        transform: translateX(-50%);
-        font-size: 30px;
+
+    .Started {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        font-size: 22px;
+        padding: 10px 10px;
+        width: auto;
+    }
+
+    .welcometext {
         margin: 0;
     }
-    
+
+    .welcometext h1 {
+        position: relative;
+        top: 180px;
+        left: 0;
+        transform: translateX(0);
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+        
     .welcometext p {
         position: absolute; 
-        top: 320px; 
-        left: 39%; 
+        top: 240px; 
+        left: 41%; 
         text-align: left;
         transform: translateX(-50%); 
-        font-size: 16px;
+        font-size: 13px;
         font-family: "Laila", serif;
         margin: 0;
         width: 80%;
     }
-    
+
     .welcometext p2 {
         position: absolute; 
-        top: 780px; 
-        font-family: "Laila", serif;
-        left: 39%; 
+        top: 620px; 
+        left: 41%; 
         text-align: left;
         transform: translateX(-50%); 
-        font-size: 16px;
+        font-size: 12px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (width: 414px) and (height: 896px) {
+    .rectangle1 {
+        width: 85%;
+        height: 110%;
+        top: 5%;
+        left: 5%;
+        transform: translate(0, 0);
+        padding: 10px;
+    }
+
+    .Cepelinai {
+        width: 350px;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        left: 0px;
+        transform: translateY(-50%);
+        background-image: url('Cepekai.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .button-container {
+        position: relative;
+        top: 565px;
+        left: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Started {
+        font-size: 22px;
+        padding: 12px 12px;
+    }
+
+    .Started::after {
+        font-size: 24px;
+        padding: 12px 12px;
+        width: auto;
+    }
+
+    .welcometext {
+        margin: 0;
+    }
+
+    .welcometext h1 {
+        position: absolute;
+        top: 220px;
+        left: 25px;
+        transform: translateX(0);
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+        
+    .welcometext p {
+        position: absolute; 
+        top: 280px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 17px;
+        font-family: "Laila", serif;
         margin: 0;
         width: 80%;
     }
+
+    .welcometext p2 {
+        position: absolute;  
+        top: 890px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 16px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+        white-space: nowrap;
+        margin-bottom: 30px;
+    }
 }
+
+@media (width: 390px) and (height: 844px) {
+    .rectangle1 {
+        width: 80%;
+        height: 105%;
+        top: 5%;
+        left: 5%;
+        transform: translate(0, 0);
+        padding: 10px;
+    }
+
+    .Cepelinai {
+        width: 320px;
+        height: 175px;
+        position: relative;
+        top: 35px;
+        left: -3px;
+        transform: translateY(-50%);
+        background-image: url('Cepekai.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .button-container {
+        position: relative;
+        top: 490px;
+        left: 65px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Started {
+        font-size: 25px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        font-size: 22px;
+        padding: 10px 10px;
+        width: auto;
+    }
+
+    .welcometext {
+        margin: 0;
+    }
+
+    .welcometext h1 {
+        position: relative;
+        top: 190px;
+        left: 0;
+        transform: translateX(0);
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+        
+    .welcometext p {
+        position: absolute; 
+        top: 250px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 15px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+    }
+
+    .welcometext p2 {
+        position: absolute; 
+        top: 760px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 14px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (width: 430px) and (height: 932px) {
+    .rectangle1 {
+        width: 80%;
+        height: 105%;
+        top: 30px;
+        left: 15px;
+        transform: translate(0, 0);
+        padding: 10px;
+    }
+
+    .Cepelinai {
+        width: 350px;
+        height: 175px;
+        position: relative;
+        top: 25px;
+        left: -3px;
+        transform: translateY(-50%);
+        background-image: url('Cepekai.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .button-container {
+        position: relative;
+        top: 525px;
+        left: 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Started {
+        font-size: 30px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        font-size: 22px;
+        padding: 10px 10px;
+        width: auto;
+    }
+
+    .welcometext {
+        margin: 0;
+    }
+
+    .welcometext h1 {
+        position: relative;
+        top: 190px;
+        left: 0;
+        transform: translateX(0);
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+        
+    .welcometext p {
+        position: absolute; 
+        top: 260px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 17px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+    }
+
+    .welcometext p2 {
+        position: absolute; 
+        top: 860px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 16px;
+        font-family: "Laila", serif;
+        margin: 0;
+        white-space: nowrap;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (width: 412px) and (height: 915px) {
+    .rectangle1 {
+        width: 87%;
+        height: 105%;
+        top: 30px;
+        left: 15px;
+        transform: translate(0, 0);
+        padding: 10px;
+    }
+
+    .Cepelinai {
+        width: 365px;
+        height: 195px;
+        position: relative;
+        top: 30px;
+        left: -3px;
+        transform: translateY(-50%);
+        background-image: url('Cepekai.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .button-container {
+        position: relative;
+        top: 515px;
+        left: 80px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Started {
+        font-size: 30px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        font-size: 22px;
+        padding: 10px 10px;
+        width: auto;
+    }
+
+    .welcometext {
+        margin: 0;
+    }
+
+    .welcometext h1 {
+        position: relative;
+        top: 190px;
+        left: 0;
+        transform: translateX(0);
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+        
+    .welcometext p {
+        position: absolute; 
+        top: 260px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 17px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+    }
+
+    .welcometext p2 {
+        position: absolute; 
+        top: 860px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 16px;
+        font-family: "Laila", serif;
+        margin: 0;
+        white-space: nowrap;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (width: 393px) and (height: 852px) {
+    .rectangle1 {
+        width: 87%;
+        height: 105%;
+        top: 30px;
+        left: 15px;
+        transform: translate(0, 0);
+        padding: 10px;
+    }
+
+    .Cepelinai {
+        width: 350px;
+        height: 195px;
+        position: relative;
+        top: 30px;
+        left: -3px;
+        transform: translateY(-50%);
+        background-image: url('Cepekai.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .button-container {
+        position: relative;
+        top: 480px;
+        left: 75px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Started {
+        font-size: 30px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        font-size: 22px;
+        padding: 10px 10px;
+        width: auto;
+    }
+
+    .welcometext {
+        margin: 0;
+    }
+
+    .welcometext h1 {
+        position: relative;
+        top: 190px;
+        left: 0;
+        transform: translateX(0);
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+        
+    .welcometext p {
+        position: absolute; 
+        top: 260px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 16px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+    }
+
+    .welcometext p2 {
+        position: absolute; 
+        top: 800px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 16px;
+        font-family: "Laila", serif;
+        margin: 0;
+        white-space: nowrap;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (width: 360px) and (height: 740px) {
+    .rectangle1 {
+        width: 87%;
+        height: 105%;
+        top: 30px;
+        left: 15px;
+        transform: translate(0, 0);
+        padding: 10px;
+    }
+
+    .Cepelinai {
+        width: 320px;
+        height: 195px;
+        position: relative;
+        top: 35px;
+        left: -3px;
+        transform: translateY(-50%);
+        background-image: url('Cepekai.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .button-container {
+        position: relative;
+        top: 420px;
+        left: 65px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Started {
+        font-size: 30px;
+        padding: 10px 10px;
+    }
+
+    .Started::after {
+        font-size: 22px;
+        padding: 10px 10px;
+        width: auto;
+    }
+
+    .welcometext {
+        margin: 0;
+    }
+
+    .welcometext h1 {
+        position: relative;
+        top: 190px;
+        left: 0;
+        transform: translateX(0);
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+        
+    .welcometext p {
+        position: absolute; 
+        top: 260px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 14px;
+        font-family: "Laila", serif;
+        margin: 0;
+        width: 80%;
+    }
+
+    .welcometext p2 {
+        position: absolute; 
+        top: 700px; 
+        left: 41%; 
+        text-align: left;
+        transform: translateX(-50%); 
+        font-size: 13px;
+        font-family: "Laila", serif;
+        margin: 0;
+        white-space: nowrap;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1440px) and (min-height: 900px) {
+
+.rectangle1 {
+        height: 95%;
+    }
+
+.welcometext h1 {
+        position: absolute;
+        top: 275px;
+        left: 80px;
+        transform: translateX(0);
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+.welcometext p2 {
+    top: 740px
+}
+
+.button-container {
+    top: 390px;
+    }
+}
+
+@media (min-width: 1024px) and (min-height: 600px) and (max-width:1439px) and (max-height:899px){
+
+    .rectangle1 {
+            height: 500px;
+        }
+
+    .Cepelinai {
+        height: 200px;
+        top: 90px;
+    }
+
+.welcometext h1 {
+        position: absolute;
+        top: 195px;
+        left: 80px;
+        transform: translateX(0);
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .welcometext p {
+        top: 235px;
+        font-size: 11px;
+    }
+
+    .welcometext p2 {
+        top: 435px;
+        font-size: 14px;
+    }
+
+    .button-container {
+        top: 210px;
+        }
+
+    }
