@@ -26,3 +26,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const footerLink = document.getElementById('footer-link');
+    let isHovered = false;
+
+    // Set a flag when the user hovers over the link
+    footerLink.addEventListener('mouseenter', () => {
+        isHovered = true;
+    });
+
+    // Reset the flag when the user leaves the link
+    footerLink.addEventListener('mouseleave', () => {
+        isHovered = false;
+    });
+
+    // Handle the click event
+    footerLink.addEventListener('click', (event) => {
+        if (isHovered) {
+            // Allow the default action (redirect) if hovered
+            window.location.href = footerLink.href;
+        } else {
+            // Prevent the default action if not hovered
+            event.preventDefault();
+        }
+    });
+});
+
