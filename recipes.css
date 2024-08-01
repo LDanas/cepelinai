@@ -189,6 +189,31 @@ body {
     animation: fadeOut 0.5s forwards;
 }
 
+.footer {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.footer-link {
+    font-size: 18px;
+    font-family: "Changa", sans-serif;
+    text-decoration: none;
+    color: #000000;
+    user-select: none; /* Prevent user from selecting the text */
+    -webkit-user-select: none; /* Prevent user from selecting the text in WebKit browsers */
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: white
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
